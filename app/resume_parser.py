@@ -1,5 +1,7 @@
-import fitz  # PyMuPDF
+
 import docx2txt
+import fitz
+
 
 def parse_resume(uploaded_file):
     filename = uploaded_file.name.lower()

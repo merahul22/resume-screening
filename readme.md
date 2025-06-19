@@ -44,6 +44,17 @@ streamlit run app/main.py
 ```
 
 ---
+## 🧠 How It Works: TF-IDF + Cosine Similarity
+
+This app ranks resumes based on how closely their content matches a job description using the following NLP techniques:
+
+- **TF-IDF (Term Frequency – Inverse Document Frequency)**  
+  Measures how important a word is to a document relative to all documents. It gives higher weight to unique, meaningful terms like “pandas” or “machine learning” and lower weight to common words like “the” or “and”.
+
+- **Cosine Similarity**  
+  Measures the angle between two TF-IDF vectors: one for the job description, one for the resume. A smaller angle (closer to 1) means higher similarity.
+
+> Final score is shown as a percentage — higher means more relevant.
 
 
 
