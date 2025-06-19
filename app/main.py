@@ -4,6 +4,12 @@ from scorer import score_resume
 
 import os
 import pandas as pd
+st.set_page_config(
+    page_title="Resume Screening App",
+    page_icon="📄",
+    layout="centered",
+    initial_sidebar_state="auto"
+)
 
 st.title("🧠 Resume Screening App")
 
