@@ -1,0 +1,6 @@
+streamlit
+fitz  # PyMuPDF
+docx2txt
+scikit-learn
+pandas
+joblib
