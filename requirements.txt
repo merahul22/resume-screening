@@ -4,3 +4,4 @@ docx2txt
 scikit-learn
 pandas
 joblib
+PyMuPDF==1.23.7
